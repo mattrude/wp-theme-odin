@@ -1,0 +1,31 @@
+/*
+ * Theme Name: Odin
+ * Version: 0.1
+ * Description: Odin is a child theme for the Caraline theme 
+ * Author: Matt Rude
+ * Template: coraline
+ * */
+
+@import url("../coraline/style.css");
+
+/* Remove the WordPres stats Smiley */
+img#wpstats{width:0px;height:0px;padding:0px;border:none;overflow:hidden}
+
+/* Correct side bar size for 200px images */
+.two-column #container { max-width: 830px; }
+.two-column #content { width: 74%; }
+.two-column #primary, .two-column #secondary { width: 24%; }
+
+.attachment #comments { width: 60%; }
+
+/* Image Page */
+.attachment #content { width: 100%; }
+.nav-images { float: right; width: 30px; }
+
+/*EXIF table*/
+#exif { overflow: hidden; margin: 0; padding: 0 10px 0 0; }
+#exif-lable { margin: 0 0 0 15px; width: 20%; }
+#exif-lable p { margin: 0; }
+#exif-lable span { font-weight:bold; }
+#exif-data { overflow: hidden; margin-bottom: 20px; float: right; width: 80%; }
+#exif-data p { margin: 0 10px; }
