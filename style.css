@@ -16,18 +16,27 @@ img#wpstats{width:0px;height:0px;padding:0px;border:none;overflow:hidden}
 .two-column #content { width: 75%; }
 .two-column #primary, .two-column #secondary { width: 23%; }
 
+.entry-title, .widget-title { font-size: 23px; line-height: 15px; margin-bottom: 8px; padding: 2px; padding-top: 10px; border-bottom: 1px solid #CCC; }
+.exif-title { line-height: 12px; padding: 2px; padding-top: 8px; border-bottom: 1px solid #CCC; margin-bottom: 10px }
+#comments h3 { line-height: 12px; padding: 2px; padding-top: 8px; font-size: 1.17em; text-transform: none; padding: -5px}
+body { font-size: 16px; }
+
 .attachment #comments { width: 60%; }
 
+pre { overflow: auto; line-height: 16px; padding: 0.6em; }
+
 /* Image Page */
+.image-attachment .entry-content .entry-attachment { background: #EEE; margin: 0px; padding: 0.85em; text-align: center; }
+.attachment .entry-caption { margin: 0px 0px 10px}
 .attachment #content { width: 100%; }
 .nav-images { float: right; width: 30px; }
 
 /* EXIF table*/
-#exif { overflow: hidden; margin: 0; padding: 0 10px 0 0; }
-#exif-lable { margin: 0 0 0 15px; width: 20%; }
+#exif { overflow: hidden; margin: 20px 0 0; padding: 0 10px 0 0; width: 60%; }
+#exif-lable { margin: 0 0 0 15px; width: 30%; }
 #exif-lable p { margin: 0; }
 #exif-lable span { font-weight:bold; }
-#exif-data { overflow: hidden; margin-bottom: 20px; float: right; width: 80%; }
+#exif-data { overflow: hidden; margin-bottom: 20px; float: right; width: 70%; }
 #exif-data p { margin: 0 10px; }
 
 /* Widgets */

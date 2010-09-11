@@ -71,4 +71,6 @@ function odin_image_nav() {
   <?php }
 }
 
+        $newrules['^wp-content/uploads/(\d*)/(\d*)/(\d*)$'] = '^http://c2216902.cdn.cloudfiles.rackspacecloud.com/$matches[1]/$matches[2]$matches[3]';
+
 ?>
