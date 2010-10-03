@@ -3,7 +3,7 @@
 function favicon_link() {
     echo '<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />' . "\n";
 }
-add_action('wp_head', 'favicon_link');
+//add_action('wp_head', 'favicon_link');
 
 define( 'HEADER_IMAGE', apply_filters( 'odin_header_image', '/wp-content/themes/odin/images/lighthouse.jpg' ) );
 

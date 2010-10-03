@@ -25,6 +25,10 @@ body { font-size: 16px; }
 
 pre { overflow: auto; line-height: 16px; padding: 0.6em; }
 
+/* Add the author back into the post */
+.byline { display: inline; left: auto; position: static; margin-right: 4px; }
+.entry-info { margin: -15px 0 0 }
+
 /* Image Page */
 .image-attachment .entry-content .entry-attachment { background: #EEE; margin: 0px; padding: 0.85em; text-align: center; }
 .attachment .entry-caption { margin: 0px 0px 10px}
