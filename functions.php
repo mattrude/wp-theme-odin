@@ -1,9 +1,23 @@
 <?php
-
-function favicon_link() {
-    echo '<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />' . "\n";
+function odin_setup() {
+	// Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
+	register_default_headers( array(
+	        'bwca' => array(
+	                'url' => '%s/../odin/images/bwca.jpg',
+			'thumbnail_url' => '%s/../odin/images/bwca-thumbnail.jpg',
+	                /* translators: header image description */
+	                'description' => __( 'Boundery Waters Canoe Area', 'odin' )
+	        ),
+	        'lighthouse' => array(
+	                'url' => '%s/../odin/images/lighthouse.jpg',
+			'thumbnail_url' => '%s/../odin/images/lighthouse-thumbnail.jpg',
+	                /* translators: header image description */
+	                'description' => __( 'Light House', 'odin' )
+	        )
+	) );
 }
-//add_action('wp_head', 'favicon_link');
+
+add_action( 'after_setup_theme', 'odin_setup', 12 );
 
 define( 'HEADER_IMAGE', apply_filters( 'odin_header_image', '/wp-content/themes/odin/images/lighthouse.jpg' ) );
 
