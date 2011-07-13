@@ -8,6 +8,12 @@ function odin_setup() {
 	                /* translators: header image description */
 	                'description' => __( 'Boundery Waters Canoe Area', 'odin' )
 	        ),
+	        'night-view' => array(
+	                'url' => '%s/../odin/images/night-view.jpg',
+			'thumbnail_url' => '%s/../odin/images/night-view-thumbnail.jpg',
+	                /* translators: header image description */
+	                'description' => __( 'Night View', 'odin' )
+	        ),
 	        'lighthouse' => array(
 	                'url' => '%s/../odin/images/lighthouse.jpg',
 			'thumbnail_url' => '%s/../odin/images/lighthouse-thumbnail.jpg',
@@ -15,6 +21,8 @@ function odin_setup() {
 	                'description' => __( 'Light House', 'odin' )
 	        )
 	) );
+	
+	add_editor_style();
 }
 
 add_action( 'after_setup_theme', 'odin_setup', 12 );
@@ -83,8 +91,4 @@ function odin_image_nav() {
         <a href="<?php echo $previous_url; ?>"><?php echo wp_get_attachment_image( $post->ID-1, 'thumbnail' ); ?></a>
      </p>
   <?php }
-}
-
-        $newrules['^wp-content/uploads/(\d*)/(\d*)/(\d*)$'] = '^http://c2216902.cdn.cloudfiles.rackspacecloud.com/$matches[1]/$matches[2]$matches[3]';
-
-?>
+} ?>
