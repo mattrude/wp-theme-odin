@@ -10,8 +10,8 @@ The Odin Child Theme adds the following features to Coraline.
 * Other minor tweeks to the CSS
 
 ## Prerequisites
-* WordPress 3.2+
-* Coraline Theme
+* [WordPress](http://wordpress.org/) 3.2+
+* [Coraline Theme](http://wordpress.org/extend/themes/coraline)
 
 ## Support
 If you are having issues using the Odin Theme, please file a bug on this project's [github issues page](https://github.com/mattrude/wp-theme-odin/issues).
@@ -26,4 +26,3 @@ Kirby is free software; you may redistribute it and/or modify it under the terms
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
     Everyone is permitted to copy and distribute verbatim copies
     of this license document, but changing it is not allowed.
-
