@@ -1,3 +1,5 @@
+# WordPress Theme Odin
+
 Odin is a WordPress Child Theme of the [Coraline](http://theme.wordpress.com/themes/coraline/) theme, you must have Coraline installed for this child theme to work, you may download Coraline from the [WordPress Theme Directory](http://wordpress.org/extend/themes/coraline).
 
 The Odin Child Theme adds the following features to Coraline.
